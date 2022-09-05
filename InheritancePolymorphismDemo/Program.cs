@@ -36,6 +36,10 @@ namespace InheritancePolymorphismDemo
             operations.InsertData(19, "Ahsish", "Mumbai");
             SpecialCustomer special = new SpecialCustomer();
             special.InsertData(5, 101, "Pune");
+
+
+            ElectronicProducts ep =(ElectronicProducts) new Products();
+                       
             Console.ReadKey();
                 
 

@@ -22,6 +22,20 @@ namespace ClassLibrary1
 
 
     }
+    public abstract class Cust
+    {
+       public abstract void DeleteCustomer(int custid);//abstract
+        public void ShowCity()//concrete
+        { 
+            //code
+        
+        }
+
+    
+    
+    }
+
+
     public class SpecialCustomer : CustomerOperations
     {
         public sealed override void InsertData(int rating, int custid, string city)
