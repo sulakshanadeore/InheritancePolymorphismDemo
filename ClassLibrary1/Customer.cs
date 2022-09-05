@@ -67,6 +67,7 @@ namespace ClassLibrary1
 
         public virtual void InsertData(int rating, int custid, string city)
         {
+            Console.WriteLine("Virtual Insert Data from customer class");
             this.CustomerID = custid;
             this.CustomerCity = city;
             this.Rating = rating;
