@@ -28,6 +28,9 @@ namespace InheritancePolymorphismDemo
                 Console.WriteLine(item.ProductID);
                 Console.WriteLine(item.ProductName);
             }
+            Console.WriteLine("---------------");
+            Customer c = new Customer();
+            
 
             Console.ReadKey();
                 
