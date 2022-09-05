@@ -65,7 +65,7 @@ namespace ClassLibrary1
             this.CustomerCity = city;
         }
 
-        public void InsertData(int rating, int custid, string city)
+        public virtual void InsertData(int rating, int custid, string city)
         {
             this.CustomerID = custid;
             this.CustomerCity = city;
