@@ -23,6 +23,7 @@ namespace ClassLibrary1
             Console.WriteLine("Executed pid and pname");
         }
 
+
         public ElectronicProducts(int pid, string pname,float price):this(pid,pname)
         {
             Console.WriteLine("All executed except price , which is called here");
